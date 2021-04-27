@@ -1,0 +1,128 @@
+.slider {
+    border: solid 1px black;
+    border-radius: 1em;
+    background-color: rgb(250, 197, 127) ;
+	width: 97.5%;
+	margin: 1rem;
+    right: 50;
+    left: 50;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    border-radius: 1px;
+    margin-left: 2rem;
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+    background-color: aliceblue;
+    border: solid 1px black;
+    border-radius: 1em;
+    object-fit: contain;
+    padding: 0;
+    height: 25rem;
+	width: 97.5%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+h2{
+	margin-left: 5rem;
+	margin-top: 5rem;
+	text-decoration: underline;
+	text-decoration-color: solid 1px blueviolet;
+	
+}
+.MAS-VENDIDOS{
+
+	display: inline-flex;
+	justify-content: space-around;
+	width: 100%;
+	
+	
+	.productos{
+		p{
+			
+			text-align: center;
+			justify-content: center;
+			img{
+				margin-top: 1rem;
+			}
+			
+			
+		}
+		
+		.imagen{
+			object-fit: scale-down;
+			border-bottom: solid 1px;
+			height: 16rem;
+			align-content: center;
+			justify-items: center;
+			margin-top: .2rem;
+		}
+		
+		
+		color: black;
+		text-decoration: none;
+		display: inline-flexbox;
+		justify-content: center;
+		border: solid rgb(117, 106, 106) 2px ;
+		border-radius: 1rem;
+		margin: 1rem;
+		padding: 2rem;
+		width: 10rem;
+		height: 29rem;
+		
+		span{
+			font-size: 1rem;
+			margin-bottom: 1rem;
+
+		}
+	}
+	.productos:hover  {
+		
+		display: block;
+		box-shadow: .5rem .5rem rgb(221, 188, 188);
+		border-radius: 25px;
+		background-color: rgb(231, 213, 188);
+	}
+	.producto1 {
+
+		img{
+			justify-content: center;
+			margin-top: .5rem;
+		}
+		
+		display: flexbox;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		
+	}
+	h3{
+		text-align: center;
+		border-bottom: solid 1px blueviolet;
+	}
+	
+}
+	

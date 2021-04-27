@@ -1,0 +1,102 @@
+.Portatiles {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%; }
+  .Portatiles .productos {
+    color: black;
+    text-decoration: none;
+    display: inline-flexbox;
+    justify-content: center;
+    border: solid #756a6a 2px;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    width: 14rem;
+    height: 30rem; }
+    .Portatiles .productos p {
+      font-size: 1rem;
+      text-align: center;
+      justify-content: center;
+      margin: 0; }
+      .Portatiles .productos p img {
+        margin-top: .6rem;
+        padding-top: .4rem; }
+      .Portatiles .productos p span {
+        font-size: 1rem;
+        margin-bottom: .5rem;
+        padding-bottom: .3rem;
+        font-weight: bold; }
+    .Portatiles .productos .precio {
+      padding: 0;
+      height: 1rem;
+      color: #012e2e;
+      font-size: 1.3rem; }
+      .Portatiles .productos .precio span {
+        padding-top: .3rem;
+        border: 1px solid #0c7967;
+        height: 1.8rem;
+        border-radius: 0 .5rem .5rem .5rem;
+        border-width: .2rem;
+        background: #e69706;
+        padding-left: .5rem;
+        padding-right: .5rem; }
+    .Portatiles .productos .imagen {
+      object-fit: contain;
+      border-bottom: solid 1px;
+      height: 9rem;
+      align-content: center;
+      justify-items: center;
+      margin-top: .4rem;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      top: 0; }
+    .Portatiles .productos span {
+      font-size: 1rem;
+      margin-bottom: .5rem;
+      padding-bottom: .3rem; }
+  .Portatiles .productos:hover {
+    display: block;
+    box-shadow: 0.5rem 0.5rem #ddbcbc;
+    border-radius: 25px;
+    background-color: #e7d5bc; }
+  .Portatiles .producto1 {
+    display: flexbox;
+    flex-direction: column;
+    flex-wrap: nowrap; }
+    .Portatiles .producto1 img {
+      justify-content: center; }
+  .Portatiles h3 {
+    text-align: center;
+    font-size: 1.5rem; }
+  .Portatiles button {
+    background: local;
+    border: 0; }
+
+h2 {
+  margin: 2rem; }
+  h2 a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+    margin-top: 2rem; }
+
+.n1 {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  margin: 1rem;
+  list-style: none;
+  border-radius: 1rem;
+  background-color: #5c528b; }
+  .n1 li {
+    text-decoration: none;
+    height: 3rem;
+    margin-top: .5rem;
+    width: 50%;
+    text-align: center; }
+    .n1 li a {
+      text-decoration: none;
+      color: white;
+      align-content: center;
+      font-size: 2rem; }

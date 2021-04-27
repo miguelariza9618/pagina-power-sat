@@ -1,0 +1,53 @@
+.product {
+  display: flex; }
+  .product hgroup {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: sans-serif; }
+    .product hgroup img {
+      object-fit: scale-down;
+      width: 70%;
+      align-items: center; }
+  .product .caracteristicas {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-right: 5rem;
+    border: solid 2px #c59d9d;
+    padding: 1rem;
+    border-radius: 25px; }
+    .product .caracteristicas h3 {
+      margin: .7rem;
+      padding: .5rem;
+      text-align: center;
+      font-size: 2rem; }
+    .product .caracteristicas section ul {
+      list-style: blue; }
+    .product .caracteristicas section .precio {
+      padding: 0;
+      height: 1rem;
+      color: #012e2e;
+      font-size: 1.3rem;
+      text-align: center; }
+      .product .caracteristicas section .precio span {
+        padding-top: .3rem;
+        border: 1px solid #0c7967;
+        height: 1.8rem;
+        border-radius: 0 .5rem .5rem .5rem;
+        border-width: .2rem;
+        background: #e69706;
+        padding-left: .5rem;
+        padding-right: .5rem; }
+
+.description {
+  background-color: antiquewhite;
+  border-radius: 25px;
+  margin: 2rem;
+  padding: 2rem; }
+  .description h2 {
+    margin: .5rem; }
+  .description p {
+    text-align: justify;
+    font-size: 1.1rem; }
