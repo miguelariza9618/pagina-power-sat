@@ -41,13 +41,25 @@
         padding-left: .5rem;
         padding-right: .5rem; }
 
-.description {
-  background-color: antiquewhite;
-  border-radius: 25px;
-  margin: 2rem;
-  padding: 2rem; }
-  .description h2 {
-    margin: .5rem; }
-  .description p {
-    text-align: justify;
-    font-size: 1.1rem; }
+.condiciones {
+  display: flex; }
+  .condiciones .description {
+    width: 70%;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin: 2rem;
+    padding: 2rem; }
+    .condiciones .description h2 {
+      margin: .5rem; }
+    .condiciones .description p {
+      text-align: justify;
+      font-size: 1.1rem; }
+  .condiciones .politicas {
+    width: 30%;
+    height: 100%;
+    background-color: #cefcee;
+    border-radius: 25px;
+    margin: 2rem;
+    padding: 2rem; }
+    .condiciones .politicas h2 {
+      margin: .5rem; }

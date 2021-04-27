@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 0.7fr 2fr 0.3fr;
   justify-content: space-between;
-  background-color: #e69706;
+  background-color: rgb(209, 159, 66);
   width: 100%;
   height: min-content; }
   .header .Barra1 {

@@ -59,17 +59,32 @@
         }
     }
 }
-.description{
-    background-color: antiquewhite;
-    border-radius: 25px;
-    margin: 2rem;
-    padding: 2rem;
-    h2{
-        margin: .5rem;
+.condiciones{
+    display: flex;
+    .description{
+        width: 70%;
+        background-color: antiquewhite;
+        border-radius: 25px;
+        margin: 2rem;
+        padding: 2rem;
+        h2{
+            margin: .5rem;
+        }
+        p{
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+        
     }
-    p{
-        text-align: justify;
-        font-size: 1.1rem;
+    .politicas{
+        width: 30%;
+        height: 100%;
+        background-color: rgb(206, 252, 238);
+        border-radius: 25px;
+        margin: 2rem;
+        padding: 2rem;
+        h2{
+            margin: .5rem;
+        }
     }
-    
 }
