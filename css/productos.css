@@ -10,6 +10,7 @@
     .product hgroup img {
       object-fit: scale-down;
       width: 70%;
+      margin: 1rem;
       align-items: center; }
   .product .caracteristicas {
     margin-top: 7rem;
@@ -17,14 +18,15 @@
     margin-right: 5rem;
     border: solid 2px #c59d9d;
     padding: 1rem;
-    border-radius: 25px; }
+    border-radius: 25px;
+    width: 60%; }
     .product .caracteristicas h3 {
       margin: .7rem;
       padding: .5rem;
       text-align: center;
       font-size: 2rem; }
-    .product .caracteristicas section ul {
-      list-style: blue; }
+    .product .caracteristicas section ul li {
+      margin: .3rem; }
     .product .caracteristicas section .precio {
       padding: 0;
       height: 1rem;
@@ -63,3 +65,21 @@
     padding: 2rem; }
     .condiciones .politicas h2 {
       margin: .5rem; }
+
+.atras {
+  display: flex;
+  justify-content: center; }
+  .atras a {
+    text-align: center;
+    right: 50%;
+    left: 50%;
+    font-size: 1.3rem; }
+
+.atrasp {
+  display: flex;
+  margin: 1rem; }
+  .atrasp a {
+    text-align: center;
+    right: 50%;
+    left: 50%;
+    font-size: 1.3rem; }
