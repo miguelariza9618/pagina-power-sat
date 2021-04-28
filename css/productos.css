@@ -50,7 +50,8 @@
     background-color: antiquewhite;
     border-radius: 25px;
     margin: 2rem;
-    padding: 2rem; }
+    padding: 2rem;
+    height: 100%; }
     .condiciones .description h2 {
       margin: .5rem; }
     .condiciones .description p {
