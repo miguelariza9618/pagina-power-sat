@@ -3,7 +3,7 @@ footer {
   padding: 1rem;
   box-sizing: border-box;
   font-family: sans-serif;
-  background: #e69706;
+  background: #fc5d13;
   border-radius: 25px;
   margin-top: 2rem;
   bottom: 0; }
@@ -48,7 +48,7 @@ footer {
   max-width: 100rem; }
   .columna3 h1 {
     font-size: 1.4rem;
-    border-bottom: solid 1px #e48508; }
+    border-bottom: solid 1px #fc5d13; }
   .columna3 .row {
     margin-top: 1rem;
     display: flex; }
@@ -61,6 +61,6 @@ footer {
       margin-left: .6rem; }
 
 .container-footer {
-  background: #d89211;
+  background: #fc5d13;
   border-top: solid 1px blueviolet;
   max-width: 300rem; }
