@@ -1,5 +1,6 @@
 .product {
-  display: flex; }
+  display: flex;
+  justify-content: space-around; }
   .product hgroup {
     margin-left: 2rem;
     margin-top: 3rem;
@@ -9,7 +10,7 @@
     font-family: sans-serif; }
     .product hgroup img {
       object-fit: scale-down;
-      width: 70%;
+      width: 100%;
       margin: 1rem;
       align-items: center; }
   .product .caracteristicas {
@@ -18,8 +19,7 @@
     margin-right: 5rem;
     border: solid 2px #c59d9d;
     padding: 1rem;
-    border-radius: 25px;
-    width: 60%; }
+    border-radius: 25px; }
     .product .caracteristicas h3 {
       margin: .7rem;
       padding: .5rem;
