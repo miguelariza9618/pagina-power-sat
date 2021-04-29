@@ -10,11 +10,12 @@
         font-size: 1.3rem;
         text-align: center;
         font-family: sans-serif;
+
         
         
         img{
             object-fit: scale-down;
-            width: 100%;
+            width: 90%;
             margin: 1rem;
             align-items: center;
             
@@ -30,6 +31,13 @@
         padding: 1rem;
         border-radius: 25px;
         width: 70%;
+        height: 100%;
+        text-align: justify;
+
+        h2{
+            text-align: center;
+            margin: .5rem;
+        }
         
         h3{
             margin: .7rem;

@@ -10,7 +10,7 @@
     font-family: sans-serif; }
     .product hgroup img {
       object-fit: scale-down;
-      width: 100%;
+      width: 90%;
       margin: 1rem;
       align-items: center; }
   .product .caracteristicas {
@@ -20,7 +20,12 @@
     border: solid 2px #c59d9d;
     padding: 1rem;
     border-radius: 25px;
-    width: 70%; }
+    width: 70%;
+    height: 100%;
+    text-align: justify; }
+    .product .caracteristicas h2 {
+      text-align: center;
+      margin: .5rem; }
     .product .caracteristicas h3 {
       margin: .7rem;
       padding: .5rem;
