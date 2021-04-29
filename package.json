@@ -10,11 +10,12 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",    
     "build-css": "node-sass --include-path scss scss/productos-general.scss css/productos-general.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "build-css": "node-sass --include-path scss scss/productos.scss css/productos.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    
     "build-css": "node-sass --include-path scss scss/header.scss css/header.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "build-css": "node-sass --include-path scss scss/footer.scss css/footer.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass --include-path scss scss/productos.scss css/productos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },

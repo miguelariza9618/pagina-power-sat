@@ -19,14 +19,16 @@
     margin-right: 5rem;
     border: solid 2px #c59d9d;
     padding: 1rem;
-    border-radius: 25px; }
+    border-radius: 25px;
+    width: 70%; }
     .product .caracteristicas h3 {
       margin: .7rem;
       padding: .5rem;
       text-align: center;
       font-size: 2rem; }
     .product .caracteristicas section ul li {
-      margin: .3rem; }
+      margin: .3rem;
+      font-family: sans-serif; }
     .product .caracteristicas section .precio {
       padding: 0;
       height: 1rem;
