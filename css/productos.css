@@ -40,7 +40,7 @@
       color: #012e2e;
       font-size: 1.3rem;
       text-align: center; }
-      .product .caracteristicas section .precio span {
+      .product .caracteristicas section .precio label {
         padding-top: .3rem;
         border: 1px solid #0c7967;
         height: 1.8rem;
