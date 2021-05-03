@@ -21,7 +21,7 @@
       .Portatiles .productos p img {
         margin-top: .6rem;
         padding-top: .4rem; }
-      .Portatiles .productos p span {
+      .Portatiles .productos p label {
         font-size: 1rem;
         margin-bottom: .5rem;
         padding-bottom: .3rem;
@@ -31,13 +31,13 @@
       height: 1rem;
       color: #012e2e;
       font-size: 1.3rem; }
-      .Portatiles .productos .precio span {
+      .Portatiles .productos .precio label {
         padding-top: .3rem;
         border: 1px solid #0c7967;
         height: 1.8rem;
         border-radius: 0 .5rem .5rem .5rem;
         border-width: .2rem;
-        background:rgb(211, 160, 64);
+        background: #c99637;
         padding-left: .5rem;
         padding-right: .5rem; }
     .Portatiles .productos .imagen {
@@ -50,7 +50,7 @@
       margin-bottom: 1rem;
       padding-bottom: 1rem;
       top: 0; }
-    .Portatiles .productos span {
+    .Portatiles .productos label {
       font-size: 1rem;
       margin-bottom: .5rem;
       padding-bottom: .3rem; }
