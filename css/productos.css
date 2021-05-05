@@ -10,7 +10,8 @@
     font-family: sans-serif; }
     .product hgroup img {
       object-fit: scale-down;
-      width: 90%;
+      width: auto;
+      max-height: 30rem;
       margin: 1rem;
       align-items: center; }
   .product .caracteristicas {
