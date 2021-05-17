@@ -3,7 +3,8 @@ footer {
   padding: 1rem;
   box-sizing: border-box;
   font-family: sans-serif;
-  background: #fc5d13;
+  color: beige;
+  background: rgb(120, 19, 252);
   border-radius: 25px;
   margin-top: 2rem;
   bottom: 0; }
@@ -25,7 +26,7 @@ footer {
     border-bottom: solid 1px blueviolet; }
   .columna1 p {
     font-size: 1rem;
-    color: #1b1818;
+    color: #c4b5b5;
     margin-top: 1rem; }
 
 .columna2 {
@@ -48,7 +49,7 @@ footer {
   max-width: 100rem; }
   .columna3 h1 {
     font-size: 1.4rem;
-    border-bottom: solid 1px #fc5d13; }
+    border-bottom: solid 1px #1b8cd8; }
   .columna3 .row {
     margin-top: 1rem;
     display: flex; }
@@ -61,6 +62,6 @@ footer {
       margin-left: .6rem; }
 
 .container-footer {
-  background: #fc5d13;
+  background: #9f13fc;
   border-top: solid 1px blueviolet;
   max-width: 300rem; }

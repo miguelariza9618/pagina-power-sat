@@ -38,7 +38,7 @@
     .product .caracteristicas section .precio {
       padding: 0;
       height: 1rem;
-      color: #012e2e;
+      color: #e5f0c5;
       font-size: 1.3rem;
       text-align: center; }
       .product .caracteristicas section .precio label {
@@ -47,7 +47,7 @@
         height: 1.8rem;
         border-radius: 0 .5rem .5rem .5rem;
         border-width: .2rem;
-        background: #d3a040;
+        background: #374dc9;
         padding-left: .5rem;
         padding-right: .5rem; }
 
@@ -55,7 +55,7 @@
   display: flex; }
   .condiciones .description {
     width: 70%;
-    background-color: antiquewhite;
+    background-color: rgb(236, 215, 250);
     border-radius: 25px;
     margin: 2rem;
     padding: 2rem;
