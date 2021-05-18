@@ -19,8 +19,8 @@
       justify-content: center;
       margin: 0; }
       .Portatiles .productos p img {
-        margin-top: .6rem;
-        padding-top: .4rem; }
+        margin-top: .1rem;
+        ; }
       .Portatiles .productos p label {
         font-size: 1rem;
         margin-bottom: .5rem;
@@ -30,7 +30,8 @@
       padding: 0;
       height: 1rem;
       color: #e5f0c5;
-      font-size: 1.3rem; }
+      font-size: 1.3rem;
+      margin: .5rem; }
       .Portatiles .productos .precio label {
         padding-top: .3rem;
         border: 1px solid #163ce6;
