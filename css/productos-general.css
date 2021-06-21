@@ -1,5 +1,5 @@
 .Portatiles {
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
   width: 100%; }
   .Portatiles .productos {
@@ -19,8 +19,8 @@
       justify-content: center;
       margin: 0; }
       .Portatiles .productos p img {
-        margin-top: .1rem;
-        ; }
+        margin-top: .6rem;
+        padding-top: .4rem; }
       .Portatiles .productos p label {
         font-size: 1rem;
         margin-bottom: .5rem;
@@ -29,16 +29,15 @@
     .Portatiles .productos .precio {
       padding: 0;
       height: 1rem;
-      color: #e5f0c5;
-      font-size: 1.3rem;
-      margin: .5rem; }
+      color: #012e2e;
+      font-size: 1.3rem; }
       .Portatiles .productos .precio label {
         padding-top: .3rem;
-        border: 1px solid #163ce6;
+        border: 1px solid #0c7967;
         height: 1.8rem;
         border-radius: 0 .5rem .5rem .5rem;
         border-width: .2rem;
-        background: #374dc9;
+        background: #c99637;
         padding-left: .5rem;
         padding-right: .5rem; }
     .Portatiles .productos .imagen {
@@ -77,7 +76,7 @@ h2 {
   margin: 2rem; }
   h2 a {
     text-decoration: none;
-    color: rgb(248, 8, 8);
+    color: black;
     margin: 2rem;
     margin-top: 2rem; }
 
@@ -101,3 +100,15 @@ h2 {
       color: white;
       align-content: center;
       font-size: 2rem; }
+
+
+@media (max-width: 768px) {
+  .Portatiles {
+    width: 100%;
+    overflow-x: auto;
+    align-items: stretch;
+    flex-wrap: wrap;
+    
+   
+  }
+}

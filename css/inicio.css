@@ -3,6 +3,7 @@
   border-radius: 1em;
   background-color: #ca53ee;
   width: 97.5%;
+  
   margin: 1rem;
   right: 50;
   left: 50;
@@ -91,3 +92,21 @@ h2 {
       justify-content: center; }
   .MAS-VENDIDOS h3 {
     text-align: center; }
+
+  @media (max-width: 768px){
+    .slider{
+      justify-content: center;
+      padding: auto;
+      margin: auto;
+      margin-top: 1rem;
+      object-fit: contain; 
+    }
+    .slider img{
+      width: 95%;
+      margin-top: 0%;
+      padding-top: 0;
+    }
+    .slider ul{
+      object-fit: contain;
+    }
+  }

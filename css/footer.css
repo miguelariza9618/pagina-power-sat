@@ -65,3 +65,9 @@ footer {
   background: #9f13fc;
   border-top: solid 1px blueviolet;
   max-width: 300rem; }
+
+@media (max-width: 768px) {
+  .container-body{
+    flex-direction: column;
+  }
+}
